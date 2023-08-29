@@ -63,7 +63,7 @@ class FormPropuestaNueva extends Component
             $this->subcategorias = collect(); // Vaciar la colección si no hay categoría seleccionada
         }
     }
-
+//render de la vista
     public function render()
     {
         return view('livewire.form-propuesta-nueva');
